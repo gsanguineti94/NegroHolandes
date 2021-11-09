@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap);
+* {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  font-family: "Amatic SC";
+  font-size: x-large;
+  background-color: #baddae;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  height: 4rem;
+  top: 0mm;
+  width: 100%;
+  margin: 0;
+  z-index: 99999;
+  align-items: center;
+  box-shadow: 0 0 7px -1px #00000091; }
+  .header__left {
+    height: auto;
+    width: auto;
+    height: fit-content;
+    line-height: normal;
+    padding-left: .5rem; }
+  .header__right {
+    margin: auto;
+    margin-right: 0mm;
+    padding-right: .5rem; }
+    .header__right__menu li {
+      color: grey;
+      margin-left: 1mm;
+      display: inline-block;
+      text-decoration: black; }
+
+.footer {
+  font-family: "Amatic SC";
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 0 7px -1px #00000091; }
+  .footer__left {
+    padding-left: .5rem;
+    width: auto; }
+  .footer__links {
+    padding-right: .5rem;
+    margin: auto;
+    margin-right: 0mm; }
+
+.titlesNoHome {
+  color: red;
+  font-family: "Amatic SC";
+  text-align: center;
+  letter-spacing: 0.25rem; }
+
+.homeTitle {
+  font-family: "Amatic SC";
+  text-align: center;
+  padding-top: 100px;
+  position: relative; }
+
+.ingredientes {
+  color: black;
+  padding-left: 10px;
+  text-align: center;
+  list-style-type: none; }
+
+.gridMasaMadre {
+  display: grid;
+  grid-template-columns: 8% 35% 8% 35%;
+  gap: 3rem;
+  width: 98%; }
+
+.productos {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-family: "Open Sans";
+  font-size: small; }
+  .productos img:hover {
+    transform: scale(1.5); }
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  list-style-type: none; }
+
+h1 {
+  font-size: 3rem; }
+
+p {
+  font-family: "Open Sans";
+  color: #473f2d;
+  margin: 1rem; }
+
+body {
+  background-color: #cff5c1; }
+
+@media only screen and (max-width: 400px) {
+  .homeTitle img {
+    max-height: 350px;
+    max-width: 311px;
+    padding-top: 0px; }
+  .header {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .header__left {
+      padding: 0rem; }
+    .header__right {
+      padding: 0rem;
+      margin: 0rem; } }
+
+@media only screen and (min-width: 401px) and (max-width: 599px) {
+  .homeTitle img {
+    max-height: 390px;
+    max-width: 347px; }
+  .header {
+    flex-wrap: wrap;
+    justify-content: center; }
+    .header__left {
+      padding: 0rem; }
+    .header__right {
+      padding: 0rem;
+      margin: 0rem; } }

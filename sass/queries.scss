@@ -1,0 +1,40 @@
+@media only screen and (max-width: 400px){
+    .homeTitle img {
+        max-height: 350px;
+        max-width: 311px;
+        padding-top: 0px;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__left{
+            padding: 0rem;
+        }
+
+        &__right{
+            padding: 0rem;
+            margin: 0rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px){
+    .homeTitle img {
+        max-height: 390px;
+        max-width: 347px;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__left{
+            padding: 0rem;
+        }
+
+        &__right{
+            padding: 0rem;
+            margin: 0rem;
+        }
+    }
+}

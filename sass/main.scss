@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+//FONTS//
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap);
+//FONTS//
+
+//FONT VAR//
+$title-font: 'Amatic SC';
+$body-font: 'Open Sans';
+//FONT VAR//
+
+@import "./header.scss";
+
+@import "./footer.scss";
+
+.titlesNoHome{
+    color: red;
+    font-family: $title-font;
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+.homeTitle{
+    font-family: $title-font;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.ingredientes{
+    color: black;
+    padding-left: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.gridMasaMadre{
+    display: grid;
+    grid-template-columns: 8% 35% 8% 35%;
+    gap: 3rem;
+    width: 98%;
+}
+
+.productos{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: $body-font;
+    font-size: small;
+
+    & img:hover{
+        transform: scale(1.5);
+    }
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style-type: none;
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-family: $body-font;
+    color: #473f2d ;
+    margin: 1rem;
+}
+
+body{
+    background-color: #cff5c1;
+}
+
+@import "./queries.scss"

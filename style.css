@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap);
+
+*{
+    margin: 0mm;
+    padding: 0mm;
+}
+
+/*----------FORMATO POR CLASES----------*/
+.titlesNoHome{
+    color: red;
+    font-family: "Amatic SC";
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+.homeTitle{
+    font-family: "Amatic SC";
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.ingredientes{
+    color: black;
+    padding-left: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.gridMasaMadre{
+    display: grid;
+    grid-template-columns: 8% 35% 8% 35%;
+    gap: 3rem;
+    width: 98%;
+}
+
+.productos{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: "Open Sans";
+    font-size: small;
+}
+
+.productos img:hover{
+    transform: scale(1.5);
+}
+/*----------FIN FORMATO POR CLASES----------*/
+
+/*----------FORMATO POR ETIQUETAS----------*/
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style-type: none;
+}
+
+footer{
+    font-family: "Amatic SC";
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-family: "Open Sans";
+    color: #473f2d ;
+    margin: 1rem;
+}
+
+body{
+    background-color: #cff5c1;
+}
+
+/*----------FIN FORMATO POR ETIQUETAS----------*/
+
+/*----------------MEDIA QUERIES----------------*/
+
+@media only screen and (max-width: 400px){
+    .homeTitle img {
+        max-height: 350px;
+        max-width: 311px;
+        padding-top: 0px;
+    }
+    .wrapperHeader {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerLeft{
+        padding: 0rem;
+
+    }
+    .headerRight{
+        padding: 0rem;
+        margin: 0rem;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px){
+    .homeTitle img {
+        max-height: 390px;
+        max-width: 347px;
+    }
+    .wrapperHeader {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerLeft{
+        padding: 0rem;
+
+    }
+    .headerRight{
+        padding: 0rem;
+        margin: 0rem;
+    }
+}
+/*--------------FIN MEDIA QUERIES--------------*/

@@ -1,0 +1,38 @@
+.header{
+    font-family: $title-font;
+    font-size: x-large;
+    background-color: #baddae;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    height: 4rem;
+    top: 0mm;
+    width: 100%;
+    margin: 0;
+    z-index: 99999;
+    align-items: center;
+    box-shadow: 0 0 7px -1px #00000091;
+
+    &__left{
+        height: auto;
+        width: auto;
+        height: fit-content;
+        line-height: normal;
+        padding-left: .5rem;
+    }
+
+    &__right{
+        margin: auto;
+        margin-right: 0mm;
+        padding-right: .5rem;
+
+        &__menu{
+            & li{
+                color: grey;
+                margin-left: 1mm;
+                display: inline-block;
+                text-decoration: black;
+            }
+        }
+    }
+}

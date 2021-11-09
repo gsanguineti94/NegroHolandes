@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap);
+
+*{
+    margin: 0mm;
+    padding: 0mm;
+}
+
+/*----------FORMATO POR CLASES----------*/
+.titlesNoHome{
+    color: red;
+    font-family: "Amatic SC";
+    text-align: center;
+    letter-spacing: 0.25rem;
+}
+
+.homeTitle{
+    font-family: "Amatic SC";
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+.wrapperHeader{
+    background-color: #baddae;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    height: 4rem;
+    top: 0mm;
+    width: 100%;
+    margin: 0;
+    z-index: 99999;
+    align-items: center;
+    box-shadow: 0 0 7px -1px #00000091;
+}
+
+.menu li{
+    color: grey;
+    margin-left: 1mm;
+    display: inline-block;
+    text-decoration: black;
+}
+
+.headerLeft{
+    width: auto;
+    height: 33px;
+    line-height: normal;
+    padding-left: .5rem;
+    align-items: center;
+}
+
+.headerRight{
+    margin: auto;
+    height: 36px;
+    margin-right: 0mm;
+    padding-right: .5rem;
+    align-items: center;
+}
+
+.wrapperFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 0 7px -1px #00000091;
+    background-image: radial-gradient(90deg,#91ac87, #a6c49a, #cff5c1, #a6c49a, #91ac87);
+}
+
+.footerLeft{
+    padding-left: .5rem;
+    width: auto;
+}
+
+.footerLinks{
+    padding-right: .5rem;
+    margin: auto;
+    margin-right: 0mm;
+}
+
+.ingredientes{
+    color: black;
+    padding-left: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.gridMasaMadre{
+    display: grid;
+    grid-template-columns: 8% 35% 8% 35%;
+    gap: 3rem;
+    width: 98%;
+}
+
+.productos{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    font-family: "Open Sans";
+    font-size: small;
+}
+
+/*----------FIN FORMATO POR CLASES----------*/
+
+/*----------FORMATO POR ETIQUETAS----------*/
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    list-style-type: none;
+}
+
+footer{
+    font-family: "Amatic SC";
+    width: 100%;
+}
+
+header{
+    font-family: "Amatic SC";
+    font-size: x-large;
+    display: block;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-family: "Open Sans";
+    color: #473f2d ;
+    margin: 1rem;
+}
+
+body{
+    background-color: #cff5c1;
+}
+
+.submenu{
+    position: relative;
+}
+
+ul ul{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    left: .5rem;
+    background-color: #baddae;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover{
+    font-size: 1.6rem;
+    background-color:#687b61;
+}
+
+ul li:hover ul{
+    display: block;
+    background-color:#687b61;
+}
+
+/*----------FIN FORMATO POR ETIQUETAS----------*/
+
+/*----------------MEDIA QUERIES----------------*/
+
+@media only screen and (max-width: 400px){
+    .homeTitle img {
+        max-height: 350px;
+        max-width: 311px;
+        padding-top: 0px;
+    }
+    .wrapperHeader {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerLeft{
+        padding: 0rem;
+
+    }
+    .headerRight{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .productos{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px){
+    .homeTitle img {
+        max-height: 390px;
+        max-width: 347px;
+    }
+    .wrapperHeader {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .headerLeft{
+        padding: 0rem;
+
+    }
+    .headerRight{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .productos{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 766px){
+    .productos{
+        text-align: center;
+    }
+}
+/*--------------FIN MEDIA QUERIES--------------*/
