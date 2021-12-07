@@ -13,18 +13,6 @@ $title-font: 'Amatic SC';
 $body-font: 'Open Sans';
 //FONT VAR//
 
-//BS GRID VAR//
-$grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 1100px,
-    xl: 1200px,
-    xxl: 1400px
-);
-//BS GRID VAR//
-
-
 @import "./header.scss";
 
 @import "./footer.scss";
@@ -36,6 +24,7 @@ $grid-breakpoints: (
     text-align: center;
     color: white;
     margin-top: 1rem;
+    margin-bottom: 5%;
     background-image: url(https://snipboard.io/cQRKNs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,6 +46,11 @@ $grid-breakpoints: (
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
     padding: 20px;
+}
+
+.categoriaProducto{
+    text-align: center;
+    font-family: $title-font;
 }
 
 .titlesNoHome{
@@ -93,9 +87,11 @@ $grid-breakpoints: (
     justify-content: flex-end;
     font-family: $body-font;
     font-size: small;
+    margin-bottom: 5%;
 
     & img:hover{
         transform: scale(1.5);
+        transform-origin: 5%;
     }
 }
 

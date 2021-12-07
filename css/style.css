@@ -66,6 +66,7 @@
   text-align: center;
   color: white;
   margin-top: 1rem;
+  margin-bottom: 5%;
   background-image: url(https://snipboard.io/cQRKNs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,6 +90,10 @@
   /* Black background with 0.5 opacity */
   color: #f1f1f1;
   padding: 20px; }
+
+.categoriaProducto {
+  text-align: center;
+  font-family: "Amatic SC"; }
 
 .titlesNoHome {
   color: red;
@@ -119,9 +124,11 @@
   width: 100%;
   justify-content: flex-end;
   font-family: "Open Sans";
-  font-size: small; }
+  font-size: small;
+  margin-bottom: 5%; }
   .productos img:hover {
-    transform: scale(1.5); }
+    transform: scale(1.5);
+    transform-origin: 5%; }
 
 a {
   text-decoration: none;
@@ -141,7 +148,9 @@ body {
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .row {
-    text-align: center; } }
+    text-align: center; }
+  .productos {
+    margin-bottom: 10%; } }
 
 @media only screen and (min-width: 542px) and (max-width: 599px) {
   .homeTitle img {
@@ -156,7 +165,9 @@ body {
       padding: 0rem; }
     .header__right {
       padding: 0rem;
-      margin: 0rem; } }
+      margin: 0rem; }
+  .productos {
+    margin-bottom: 10%; } }
 
 @media only screen and (min-width: 401px) and (max-width: 541px) {
   .homeTitle img {
@@ -177,7 +188,9 @@ body {
       padding: 0rem;
       margin: 0rem; }
       .header__right__menu li {
-        margin-top: 0; } }
+        margin-top: 0; }
+  .productos {
+    margin-bottom: 10%; } }
 
 @media only screen and (max-width: 400px) {
   .homeTitle img {
@@ -199,4 +212,6 @@ body {
       padding: 0rem;
       margin: 0rem; }
       .header__right__menu li {
-        margin-top: 0; } }
+        margin-top: 0; }
+  .productos {
+    margin-bottom: 10%; } }
