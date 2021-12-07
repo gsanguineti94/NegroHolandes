@@ -55,6 +55,37 @@
     margin: auto;
     margin-right: 0mm; }
 
+.container {
+  width: 100%;
+  padding-top: 2rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  background-image: url(https://snipboard.io/cQRKNs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center; }
+
+.containerTextTop {
+  text-align: center;
+  background: black;
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 20px;
+  margin-top: 14%; }
+
+.containerTextBottom {
+  text-align: center;
+  background: black;
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 20px; }
+
 .titlesNoHome {
   color: red;
   font-family: "Amatic SC";
@@ -99,7 +130,6 @@ h1 {
 
 p {
   font-family: "Open Sans";
-  color: #473f2d;
   margin: 1rem; }
 
 body {
