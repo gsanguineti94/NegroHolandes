@@ -130,6 +130,18 @@
     transform: scale(1.5);
     transform-origin: 5%; }
 
+form {
+  font-family: "Amatic SC";
+  font-size: x-large;
+  font-weight: 600;
+  width: 100%; }
+  form input {
+    font-family: "Open Sans";
+    font-size: medium; }
+  form textarea {
+    font-family: "Open Sans";
+    font-size: medium; }
+
 a {
   text-decoration: none;
   font-weight: 600;

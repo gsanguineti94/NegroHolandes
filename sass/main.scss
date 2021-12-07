@@ -95,6 +95,23 @@ $body-font: 'Open Sans';
     }
 }
 
+form{
+    font-family: $title-font;
+    font-size: x-large;
+    font-weight: 600;
+    width: 100%;
+
+    & input{
+        font-family: $body-font;
+        font-size: medium;
+    }
+
+    & textarea{
+        font-family: $body-font;
+        font-size: medium;
+    }
+}
+
 a{
     text-decoration: none;
     font-weight: 600;
