@@ -13,6 +13,18 @@ $title-font: 'Amatic SC';
 $body-font: 'Open Sans';
 //FONT VAR//
 
+//BS GRID VAR//
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 1100px,
+    xl: 1200px,
+    xxl: 1400px
+);
+//BS GRID VAR//
+
+
 @import "./header.scss";
 
 @import "./footer.scss";

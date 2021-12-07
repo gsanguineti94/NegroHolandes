@@ -19,6 +19,11 @@
         height: fit-content;
         line-height: normal;
         padding-left: .5rem;
+        align-items: center;
+
+        &__logo{
+            margin-top: .5rem;
+        }
     }
 
     &__right{
@@ -32,6 +37,7 @@
                 margin-left: 1mm;
                 display: inline-block;
                 text-decoration: black;
+                margin-top: 1rem;
             }
         }
     }
