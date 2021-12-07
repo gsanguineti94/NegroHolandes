@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    padding-top: 2rem;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 5%;
+    background-image: url(https://snipboard.io/cQRKNs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.containerTextTop{
+    text-align: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 20px;
+    margin-top: 14%;
+}
+
+.containerTextBottom{
+    text-align: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 20px;
+}
