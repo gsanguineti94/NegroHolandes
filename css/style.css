@@ -59,7 +59,7 @@
     margin: auto;
     margin-right: 0mm; }
 
-.container {
+.nosotros {
   width: 100%;
   padding-top: 2rem;
   position: relative;
@@ -71,7 +71,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 .containerTextTop {
   text-align: center;
@@ -92,6 +94,38 @@
   color: #f1f1f1;
   padding: 20px;
   padding-bottom: 40px; }
+
+.negro {
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 5%;
+  background-image: url(https://snipboard.io/nzygkv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.containerTextRight {
+  text-align: justify;
+  background: black;
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  margin-left: 50%;
+  margin-top: 20%;
+  margin-bottom: 10%; }
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
 
 .categoriaProducto {
   text-align: center;
